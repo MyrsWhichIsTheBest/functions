@@ -9,6 +9,10 @@ def ticket_buy(age, ammount):
         "4": 12
     }
     print("You want {} x{}? (y/n)".format(age, ammount))
+    if input() == "n":
+        return
+    else:
+        return
 
 
 now = datetime.now()
